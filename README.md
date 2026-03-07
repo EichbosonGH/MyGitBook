@@ -1,5 +1,5 @@
 ---
-description: Hier ist die Page description
+description: Hier ist die Page description, sie ist super!
 icon: '3'
 coverY: 0
 ---
