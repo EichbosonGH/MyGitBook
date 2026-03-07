@@ -1,12 +1,11 @@
 ---
 coverY: 0
+layout: landing
 ---
 
-# Startseite
+# 👋 Startseite
 
 Das ist meine Startseite
-
-[omega.md](mathematik/omega.md "mention")
 
 {% content-ref url="/broken/pages/ohxgxakuetozkyMqY0S4" %}
 [Broken link](/broken/pages/ohxgxakuetozkyMqY0S4)
