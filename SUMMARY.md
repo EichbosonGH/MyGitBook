@@ -1,11 +1,13 @@
 # Table of contents
 
-## Group 1 <a href="#alpha" id="alpha"></a>
+* [Startseite](README.md)
 
-* [Testseite](README.md)
-* [Vision and Values](alpha/vision-and-values.md)
-* [🙂 Page 1](alpha/page-1.md)
+## Mathematik
 
-## The Company
+* [Testseite](mathematik/omega.md)
+* [Vision and Values](mathematik/vision-and-values.md)
+* [🙂 Page 1](mathematik/page-1.md)
 
-* [Meet the Team!](the-company/meet-the-team.md)
+## Data Science
+
+* [Meet the Team!](data-science/meet-the-team.md)
