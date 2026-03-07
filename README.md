@@ -1,16 +1,31 @@
 ---
-cover:
-  light: >-
-    https://images.unsplash.com/photo-1708011271935-3e109df56fe0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxjYWxjdWx1c3xlbnwwfHx8fDE3NzI4ODUyMDR8MA&ixlib=rb-4.1.0&q=85
-  dark: >-
-    https://images.unsplash.com/photo-1503676260728-1c00da094a0b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxzY2hvb2x8ZW58MHx8fHwxNzcyODg1MTMxfDA&ixlib=rb-4.1.0&q=85
-coverY: 0
-layout: landing
+description: Ein Wiki über Mathematik und Data Science
+cover: >-
+  https://images.unsplash.com/photo-1708011271935-3e109df56fe0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw3fHxtYXRoZW1hdGljc3xlbnwwfHx8fDE3NzI4ODU4MjR8MA&ixlib=rb-4.1.0&q=85
+coverY: -129.47680538567914
+coverHeight: 353
+layout:
+  width: default
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: false
+  outline:
+    visible: false
+  pagination:
+    visible: false
+  metadata:
+    visible: false
+  tags:
+    visible: true
 ---
 
-# 👋 Startseite
-
-Das ist meine Startseite
+# 👋 Nachsitzen!
 
 {% content-ref url="/broken/pages/ohxgxakuetozkyMqY0S4" %}
 [Broken link](/broken/pages/ohxgxakuetozkyMqY0S4)
