@@ -69,6 +69,8 @@ x = df.shape
 ```
 {% endcode %}
 
+### Tabs
+
 {% tabs %}
 {% tab title="First Tab" %}
 
@@ -79,7 +81,7 @@ x = df.shape
 {% endtab %}
 {% endtabs %}
 
-![](../.gitbook/assets/what-success-really-looks-like.jpg)
+### Columns
 
 {% columns %}
 {% column %}
@@ -94,6 +96,10 @@ Hier ist eine weitere Spalte
 
 {% endcolumn %}
 {% endcolumns %}
+
+### GitHub Gist
+
+{% embed url="https://gist.github.com/EichbosonGH/d8a0c81f74dcf7f21e06d19e6385e0ca" fullWidth="false" %}
 
 ### GitHub integration
 
