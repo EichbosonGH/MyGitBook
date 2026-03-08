@@ -4,8 +4,9 @@
 
 ## Mathematik
 
-* [🙂 Page 1](mathematik/page-1.md)
-* [Testseite](mathematik/omega.md)
+* [Mathematik](mathematik/mathematik.md)
+* [Analysis](mathematik/analysis.md)
+* [Testseite](mathematik/testseite.md)
 * [Vision and Values](mathematik/vision-and-values.md)
 
 ## Data Science

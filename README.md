@@ -1,9 +1,9 @@
 ---
 description: Ein Wiki über Mathematik und Data Science
 cover: >-
-  https://images.unsplash.com/photo-1708011271935-3e109df56fe0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw3fHxtYXRoZW1hdGljc3xlbnwwfHx8fDE3NzI4ODU4MjR8MA&ixlib=rb-4.1.0&q=85
-coverY: -129.47680538567914
-coverHeight: 353
+  https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxzdHVkeXxlbnwwfHx8fDE3NzI5NjY3ODF8MA&ixlib=rb-4.1.0&q=85
+coverY: 0
+coverHeight: 357
 layout:
   width: default
   cover:
