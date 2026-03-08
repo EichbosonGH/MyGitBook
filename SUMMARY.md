@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Nachsitzen!](README.md)
+* [📚 Nachsitzen!](README.md)
 
 ## Mathematik
 
