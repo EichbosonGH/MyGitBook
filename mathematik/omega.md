@@ -44,15 +44,20 @@ afffe
 
 Welcome to the company wiki! Here you'll find everything you need to know about the company.
 
-Mein $$E=mc$$ und dann $$\displaystyle E=mc$$
+Mein $$E=mc$$ und dann $$\displaystyle E=mc$$ Affe <kbd>Str</kbd>+<kbd>X</kbd>asd `Str`+`X`
 
-|                    |                                                               |
-| ------------------ | ------------------------------------------------------------- |
-| Inline Latex       | Einstein sagt $$E=\gamma m$$                                  |
-| Link               | [#tee](omega.md#tee "mention") [omega.md](omega.md "mention") |
-| <h2>Heading 1</h2> | <p>123123 asd<br><span class="math">a+b=c</span></p>          |
-| <h3>Heading 2</h3> | `## Heading 2`                                                |
-| Inline Code        | `x = (a*2 for a in Tup)`                                      |
+{% content-ref url="vision-and-values.md" %}
+[vision-and-values.md](vision-and-values.md)
+{% endcontent-ref %}
+
+|                           |                                                               |
+| ------------------------- | ------------------------------------------------------------- |
+| Inline Latex `E=\gamma m` | Inline Latex $$E=\gamma m$$                                   |
+| page                      |                                                               |
+| Link `/link`              | [#tee](omega.md#tee "mention") [omega.md](omega.md "mention") |
+| <h2>Heading 1</h2>        | <p>123123 asd<br><span class="math">a+b=c</span></p>          |
+| <h3>Heading 2</h3>        | `## Heading 2`                                                |
+| Inline Code               | `x = (a*2 for a in Tup)`                                      |
 
 {% code fullWidth="false" %}
 ```python
