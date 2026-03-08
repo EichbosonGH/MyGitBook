@@ -1,0 +1,6 @@
+---
+icon: dice-five
+---
+
+# Stochastik
+
