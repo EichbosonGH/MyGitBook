@@ -8,6 +8,8 @@
 * [Analysis](mathematik/analysis.md)
 * [Algebra](mathematik/algebra.md)
 * [Stochastik](mathematik/stochastik.md)
+* [Grundlagen](mathematik/grundlagen.md)
+* [Diskrete Mathematik](mathematik/diskrete-mathematik.md)
 
 ## Data Science
 
