@@ -8,9 +8,9 @@
 * [Analysis](mathematik/analysis.md)
 * [Algebra](mathematik/algebra.md)
 * [Stochastik](mathematik/stochastik.md)
-* [Testseite](mathematik/testseite.md)
-* [Vision and Values](mathematik/vision-and-values.md)
 
 ## Data Science
 
+* [Testseite](data-science/testseite.md)
+* [Vision and Values](data-science/vision-and-values.md)
 * [Meet the Team!](data-science/meet-the-team.md)

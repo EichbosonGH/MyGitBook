@@ -1,5 +1,5 @@
 ---
-icon: globe-stand
+icon: square-root-variable
 ---
 
 # Algebra
