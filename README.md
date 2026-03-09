@@ -1,5 +1,6 @@
 ---
 description: Ein Wiki über Mathematik und Data Science
+hidden: true
 noIndex: true
 cover: >-
   https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxzdHVkeXxlbnwwfHx8fDE3NzI5NjY3ODF8MA&ixlib=rb-4.1.0&q=85
