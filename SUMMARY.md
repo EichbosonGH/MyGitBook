@@ -7,7 +7,7 @@
 * [Mathematik](mathematik/mathematik.md)
 * [Analysis](mathematik/analysis/README.md)
   * [Analysis im R(1)](mathematik/analysis/analysis-im-r-1/README.md)
-    * [Grundlagen](mathematik/grundlagen.md)
+    * [Folgen und Reihen](mathematik/analysis/analysis-im-r-1/folgen-und-reihen.md)
 * [Algebra](mathematik/algebra.md)
 * [Stochastik](mathematik/stochastik.md)
 * [Grundlagen](mathematik/grundlagen.md)
