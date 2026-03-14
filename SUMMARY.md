@@ -18,5 +18,6 @@
 ## Data Science
 
 * [Testseite](data-science/testseite.md)
+* [LaTeX Beispiele](data-science/latex-beispiele.md)
 * [Vision and Values](data-science/vision-and-values.md)
 * [Meet the Team!](data-science/meet-the-team.md)

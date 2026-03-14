@@ -22,109 +22,77 @@ layout:
 
 ## Definitionen
 
-{% tabs %}
-{% tab title="Folge" %}
-Abbildung $$a_k:\N→\R$$
+{% columns %}
+{% column width="33.33333333333333%" %}
+#### Folge
+{% endcolumn %}
 
+{% column width="33.33333333333333%" %}
 $$
 \large (a_k)_{k\in\N} = (a_0,a_1,a_2,\ldots)
 $$
-{% endtab %}
+{% endcolumn %}
 
-{% tab title="Reihe" %}
-Folge von Partialsummen
-
-&#x20;$$\large (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k$$
-{% endtab %}
-{% endtabs %}
-
-{% columns %}
-{% column width="50%" %}
-### Folge
-
+{% column width="33.33333333333333%" %}
 Abbildung $$a_k:\N→\R$$
 {% endcolumn %}
-
-{% column width="50%" %}
-$$
-\LARGE (a_k)_{k\in\N} = (a_0,a_1,a_2,\ldots)
-$$
-{% endcolumn %}
 {% endcolumns %}
 
 {% columns %}
-{% column %}
-### Reihe
-
-Folge von Partialsummen
+{% column width="33.33333333333333%" %}
+#### Reihe
 {% endcolumn %}
 
-{% column %}
-$$
-\Large (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k
-$$
-{% endcolumn %}
-{% endcolumns %}
-
-{% columns %}
-{% column %}
-### Reihe
-
-Folge von Partialsummen
-{% endcolumn %}
-
-{% column %}
+{% column width="33.33333333333333%" %}
 $$
 \large (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k
 $$
+{% endcolumn %}
 
-
+{% column width="33.33333333333333%" %}
+Folge $$s_n$$ von Partialsummen
 {% endcolumn %}
 {% endcolumns %}
 
 {% columns %}
-{% column %}
-### Reihe
-
-Folge von Partialsummen
+{% column width="33.33333333333333%" %}
+#### Teleskop-Summe
 {% endcolumn %}
 
-{% column %}
+{% column width="33.33333333333333%" %}
 $$
-(s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k
+\large
+a_k = a_0 + \sum\limits_{j=1}^{k} (a_j-a_{j-1})
 $$
+{% endcolumn %}
 
-
+{% column width="33.33333333333333%" %}
+Darstellung eines Folgeglieds als Reihe
 {% endcolumn %}
 {% endcolumns %}
 
 ### Folge
 
 Abbildung $$a_k:\N→\R$$
-
-$$
-\LARGE (a_k)_{k\in\N} = (a_0,a_1,a_2,\ldots)
-$$
 
 $$
 \Large (a_k)_{k\in\N} = (a_0,a_1,a_2,\ldots)
 $$
 
-$$
-\large (a_k)_{k\in\N} = (a_0,a_1,a_2,\ldots)
-$$
-
 ### Reihe
 
 Folge von Partialsummen
 
-$$\LARGE (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k$$
-
-$$\Large (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k$$
-
-$$\large (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k$$
-
 $$
 \Large (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k
+$$
+
+### Teleskop-Summe
+
+Darstellung eines Folgeglieds als Reihe
+
+$$
+\Large
+a_k = a_0 + \sum\limits_{j=1}^{k} (a_j-a_{j-1})
 $$
 
