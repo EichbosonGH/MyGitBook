@@ -1,5 +1,21 @@
 ---
 hidden: true
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
 ---
 
 # Folgen und Reihen
@@ -23,13 +39,13 @@ Folge von Partialsummen
 {% endtabs %}
 
 {% columns %}
-{% column %}
+{% column width="50%" %}
 ### Folge
 
 Abbildung $$a_k:\N→\R$$
 {% endcolumn %}
 
-{% column %}
+{% column width="50%" %}
 $$
 \LARGE (a_k)_{k\in\N} = (a_0,a_1,a_2,\ldots)
 $$
