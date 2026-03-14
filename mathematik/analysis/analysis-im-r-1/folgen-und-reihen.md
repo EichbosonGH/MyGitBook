@@ -118,6 +118,12 @@ $$
 
 Folge von Partialsummen
 
+$$\LARGE (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k$$
+
+$$\Large (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k$$
+
+$$\large (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k$$
+
 $$
 \Large (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k
 $$
