@@ -21,7 +21,7 @@ layout:
 
 ## Definitionen
 
-<table><thead><tr><th width="266.33331298828125"></th><th width="425.93341064453125"></th></tr></thead><tbody><tr><td><h3>Folge</h3><p>Abbildung <span class="math">a_k:\N→\R</span></p></td><td><span class="math">\large (a_k)_{k\in\N} = (a_0,a_1,a_2,\ldots)</span></td></tr><tr><td><h3>Reihe</h3><p>Folge von Partialsummen</p></td><td><span class="math">\large (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k</span></td></tr><tr><td><h3>Reihe</h3><p>Folge von Partialsummen</p></td><td><span class="math">\Large (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k</span></td></tr></tbody></table>
+<table><thead><tr><th width="266.33331298828125"></th><th width="425.93341064453125"></th></tr></thead><tbody><tr><td><h3>Folge</h3><p>Abbildung <span class="math">a_k:\N→\R</span></p></td><td><span class="math">\large (a_k)_{k\in\N} = (a_0,a_1,a_2,\ldots)</span></td></tr><tr><td><h3>Reihe</h3><p>Folge von Partialsummen</p></td><td><span class="math">\displaystyle (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k</span></td></tr><tr><td><h3>Reihe</h3><p>Folge von Partialsummen</p></td><td><span class="math">(s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k</span></td></tr><tr><td><h3>Reihe</h3><p>Folge von Partialsummen</p></td><td><span class="math">\large (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k</span></td></tr><tr><td><h3>Reihe</h3><p>Folge von Partialsummen</p></td><td><span class="math">\Large (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k</span></td></tr></tbody></table>
 
 {% tabs %}
 {% tab title="Folge" %}
