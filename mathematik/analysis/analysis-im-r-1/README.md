@@ -41,59 +41,11 @@ layout:
 
 ### Definitionen
 
-{% stepper %}
-{% step %}
-### Reihe
-
-$$(s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k$$
-{% endstep %}
-
-{% step %}
-### Follow
-
-$$(s_n){n\in\N}\text{mit} s_n = \sum\limits{k=0}^{n}a_k$$
-
-$$
-(s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k
-$$
-
-
-{% endstep %}
-
-{% step %}
-### Folge
-
-$$(a_k)_{k\in\N} = (a_0,a_1,a_2,\ldots)$$
-{% endstep %}
-
-{% step %}
-### Teleskop Summe
-
-$$a_k = a_0 + \sum\limits_{j=1}^{k} (a_j-a_{j-1})$$
-{% endstep %}
-
-{% step %}
-### Affe
-
-asdasd
-
-asd $$E=m$$
-
-\
-asd
-
-
-{% endstep %}
-{% endstepper %}
-
-* Folge\
-  $$a_k = a_0 + \sum\limits_{j=1}^{k} (a_j-a_{j-1})$$
 *
-*
-* asd\
-  $$a_k = a_0 + \sum\limits_{j=1}^{k} (a_j-a_{j-1})$$
 
-<table data-full-width="false"><thead><tr><th width="204.73333740234375">Name</th><th width="297.7666015625">Definition</th><th>Bemerkung</th></tr></thead><tbody><tr><td>Folge</td><td><span class="math">(a_k)_{k\in\N} = (a_0,a_1,a_2,\ldots)</span></td><td>Abbildung <span class="math">a_k:\N→\R</span></td></tr><tr><td>Reihe</td><td><span class="math">(s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k</span></td><td>Folge von Partialsummen</td></tr><tr><td>Teleskop-Summe</td><td><span class="math">a_k = a_0 + \sum\limits_{j=1}^{k} (a_j-a_{j-1})</span></td><td><ul><li>Darstellung eines Folgeglieds als Reihe</li><li>nützlich um Reihen über <span class="math">a_k</span> ﻿ aufzusummieren</li></ul></td></tr><tr><td>Fakultät</td><td><span class="math">n! = \prod\limits_{k=1}^{n} k = 1\cdot2\cdot\ldots\cdot n</span></td><td><span class="math">0!=1</span></td></tr><tr><td>Binomial-Koeffizient</td><td><span class="math">\dbinom{n}{k} = \dbinom{n}{n-k}  =  \dfrac{n!}{k!(n-k)!}</span></td><td><span class="math">\text{Falls}~~ 0\leq k\leq n</span></td></tr><tr><td><br></td><td></td><td></td></tr></tbody></table>
+
+
+<table data-full-width="false"><thead><tr><th width="204.73333740234375">Name</th><th width="297.7666015625" align="center">Definition</th><th>Bemerkung</th></tr></thead><tbody><tr><td>Folge</td><td align="center"><span class="math">(a_k)_{k\in\N} = (a_0,a_1,a_2,\ldots)</span></td><td>Abbildung <span class="math">a_k:\N→\R</span></td></tr><tr><td>Reihe</td><td align="center"><span class="math">(s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k</span></td><td>Folge von Partialsummen</td></tr><tr><td>Teleskop-Summe</td><td align="center"><span class="math">a_k = a_0 + \sum\limits_{j=1}^{k} (a_j-a_{j-1})</span></td><td><ul><li>Darstellung eines Folgeglieds als Reihe</li><li>nützlich um Reihen über <span class="math">a_k</span> ﻿ aufzusummieren</li></ul></td></tr><tr><td>Fakultät</td><td align="center"><span class="math">n! = \prod\limits_{k=1}^{n} k = 1\cdot2\cdot\ldots\cdot n</span></td><td><span class="math">0!=1</span></td></tr><tr><td>Binomial-Koeffizient</td><td align="center"><span class="math">\dbinom{n}{k} = \dbinom{n}{n-k}  =  \dfrac{n!}{k!(n-k)!}</span></td><td><span class="math">\text{Falls}~~ 0\leq k\leq n</span></td></tr></tbody></table>
 
 ### Sätze
 
