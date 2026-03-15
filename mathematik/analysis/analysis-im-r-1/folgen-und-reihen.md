@@ -26,5 +26,35 @@ layout:
 
 ## Sätze
 
-<table><thead><tr><th width="278.36669921875">Name</th><th align="center">Aussage</th></tr></thead><tbody><tr><td>"Bedingte Summation"</td><td align="center"><span class="math">\sum\limits_{k=1}^{n} \Big(\sum\limits_{j=1}^{k} a_j\Big) =  \sum\limits_{j=1}^{n} (n-j+1)\,a_j</span></td></tr><tr><td>Arithmetische Reihe</td><td align="center"><span class="math">\sum\limits_{k=1}^{n}k =\dfrac{n(n+1)}{2} =\dfrac{n^2+n}{2}</span></td></tr><tr><td>Quadratzahlen</td><td align="center"><span class="math">k^2 = \sum\limits_{j=1}^{k}(2j-1)</span></td></tr><tr><td>Summe über Quadratzahlen</td><td align="center"><span class="math">\sum\limits_{k=1}^{n}k^2= \dfrac{n(n+1)(2n+1)}{6}= \dfrac{n^3}{3} +\dfrac{n^2}{2} +\dfrac{n}{6}</span></td></tr><tr><td>Summe über kubische Zahlen</td><td align="center"><span class="math">\sum\limits_{k=1}^{n}k^3= \bigg[\dfrac{n(n+1)}{2}\bigg]^2= \dfrac{n^4}{4} +\dfrac{n^3}{2} +\dfrac{n^2}{4}</span></td></tr><tr><td>Geometrische Reihe</td><td align="center"><span class="math">\sum\limits_{k=0}^n x^k  = \dfrac{1-x^{n+1}}{1-x} ~,~x\neq1</span></td></tr><tr><td>Binomischer Lehrsatz</td><td align="center">• <span class="math">(x+y)^n =\sum\limits_{k=0}^{n} \dbinom{n}{k}~x^{n-k}~y^k</span></td></tr><tr><td>“Trinomischer Lehrsatz”</td><td align="center">• <span class="math">(x+y+z)^n =\sum\limits_{k_1+k_2+k_3=n} \dfrac{n!}{k_1!k_2!k_3!}~ x^{k_1}y^{k_2}z^{k_3}</span></td></tr><tr><td>Summe über Binom.-Koeff.</td><td align="center">•  <span class="math">\sum\limits_{k=0}^{n}\dbinom{n}{k} = 2^n </span><br>•  <span class="math">\sum\limits_{m=k}^{n}\dbinom{m}{k} = \dbinom{n+1}{k+1} </span></td></tr></tbody></table>
+<table><thead><tr><th width="271.63336181640625">Name</th><th align="center">Aussage</th></tr></thead><tbody><tr><td>"Bedingte Summation"</td><td align="center"><span class="math">\sum\limits_{k=1}^{n} \Big(\sum\limits_{j=1}^{k} a_j\Big) =  \sum\limits_{j=1}^{n} (n-j+1)\,a_j</span></td></tr><tr><td>Arithmetische Reihe</td><td align="center"><span class="math">\sum\limits_{k=1}^{n}k =\dfrac{n(n+1)}{2} =\dfrac{n^2+n}{2}</span></td></tr><tr><td>Quadratzahlen</td><td align="center"><span class="math">k^2 = \sum\limits_{j=1}^{k}(2j-1)</span></td></tr><tr><td>Summe über Quadratzahlen</td><td align="center"><span class="math">\sum\limits_{k=1}^{n}k^2= \dfrac{n(n+1)(2n+1)}{6}= \dfrac{n^3}{3} +\dfrac{n^2}{2} +\dfrac{n}{6}</span></td></tr><tr><td>Summe über kubische Zahlen</td><td align="center"><span class="math">\sum\limits_{k=1}^{n}k^3= \bigg[\dfrac{n(n+1)}{2}\bigg]^2= \dfrac{n^4}{4} +\dfrac{n^3}{2} +\dfrac{n^2}{4}</span></td></tr><tr><td>Geometrische Reihe</td><td align="center"><span class="math">\sum\limits_{k=0}^n x^k  = \dfrac{1-x^{n+1}}{1-x} ~,~x\neq1</span></td></tr><tr><td>Binomischer Lehrsatz</td><td align="center">• <span class="math">(x+y)^n =\sum\limits_{k=0}^{n} \dbinom{n}{k}~x^{n-k}~y^k</span></td></tr><tr><td>“Trinomischer Lehrsatz”</td><td align="center">• <span class="math">(x+y+z)^n =\sum\limits_{k_1+k_2+k_3=n} \dfrac{n!}{k_1!k_2!k_3!}~ x^{k_1}y^{k_2}z^{k_3}</span></td></tr><tr><td>Summe über Binom.-Koeff.</td><td align="center">•  <span class="math">\sum\limits_{k=0}^{n}\dbinom{n}{k} = 2^n </span><br>•  <span class="math">\sum\limits_{m=k}^{n}\dbinom{m}{k} = \dbinom{n+1}{k+1} </span></td></tr></tbody></table>
+
+### Bedingte Summation
+
+asd
+
+$$
+\sum\limits_{k=1}^{n} \Big(\sum\limits_{j=1}^{k} a_j\Big) =  \sum\limits_{j=1}^{n} (n-j+1)\,a_j
+$$
+
+<details>
+
+<summary>Beweis</summary>
+
+* Wechsel von zeilenweiser zu spaltenweiser Summation
+  * zeilenweise Summen gehen von $$j=1$$ bis $$j=k$$  .
+  * spaltenweise Summen gegen von $$k=j$$ bis $$k=n$$ .&#x20;
+
+
+
+$$\begin{matrix} k \backslash j & 1 & 2 & \ldots & n  \\[0.5em] 1 & a_1 \\[0.5em] 2 & a_1 & a_2 \\[0.5em] ... \\[0.5em] n & a_1 & a_2 & \ldots & a_n \end{matrix}$$
+
+
+
+* Damit folgt
+
+$$\begin{align*} \sum_{k=1}^{n} \bigg(\sum_{j=1}^{k}a_j\bigg) &=  \sum_{j=1}^{n} \bigg(\sum_{k=j}^{n}a_j\bigg) = \sum_{j=1}^{n}a_j \bigg(\sum_{k=j}^{n}1\bigg) \\[2em] &= \sum_{j=1}^{n}a_j (n-j+1) \quad \text{q.e.d.} \end{align*}$$
+
+</details>
+
+
 
