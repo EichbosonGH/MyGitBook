@@ -57,6 +57,10 @@ $$\begin{matrix} k \backslash j & 1 & 2 & \ldots & n  \\[0.5em] 1 & a_1 \\[0.5em
 
 > $$\begin{align*} \sum_{k=1}^{n} \bigg(\sum_{j=1}^{k}a_j\bigg) &=  \sum_{j=1}^{n} \bigg(\sum_{k=j}^{n}a_j\bigg) = \sum_{j=1}^{n}a_j \bigg(\sum_{k=j}^{n}1\bigg) \\[2em] &= \sum_{j=1}^{n}a_j (n-j+1) \quad \text{q.e.d.} \end{align*}$$
 
+{% hint style="info" %}
+$$\begin{align*} \sum_{k=1}^{n} \bigg(\sum_{j=1}^{k}a_j\bigg) &=  \sum_{j=1}^{n} \bigg(\sum_{k=j}^{n}a_j\bigg) = \sum_{j=1}^{n}a_j \bigg(\sum_{k=j}^{n}1\bigg) \\[2em] &= \sum_{j=1}^{n}a_j (n-j+1) \quad \text{q.e.d.} \end{align*}$$
+{% endhint %}
+
 $$\begin{align*} \sum_{k=1}^{n} \bigg(\sum_{j=1}^{k}a_j\bigg) &=  \sum_{j=1}^{n} \bigg(\sum_{k=j}^{n}a_j\bigg) = \sum_{j=1}^{n}a_j \bigg(\sum_{k=j}^{n}1\bigg) \\[2em] &= \sum_{j=1}^{n}a_j (n-j+1) \quad \text{q.e.d.} \end{align*}$$
 
 </details>
