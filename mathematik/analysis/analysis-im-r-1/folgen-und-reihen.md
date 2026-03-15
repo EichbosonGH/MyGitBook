@@ -33,7 +33,7 @@ layout:
 asd
 
 $$
-\sum\limits_{k=1}^{n} \Big(\sum\limits_{j=1}^{k} a_j\Big) =  \sum\limits_{j=1}^{n} (n-j+1)\,a_j
+s_n =\sum\limits_{k=1}^{n} \Big(\sum\limits_{j=1}^{k} a_j\Big) =  \sum\limits_{j=1}^{n} (n-j+1)\,a_j
 $$
 
 <details>
@@ -41,16 +41,21 @@ $$
 <summary>Beweis</summary>
 
 * Wechsel von zeilenweiser zu spaltenweiser Summation
-  * zeilenweise Summen gehen von $$j=1$$ bis $$j=k$$  .
-  * spaltenweise Summen gegen von $$k=j$$ bis $$k=n$$ .&#x20;
+* in jeder Spalte sinkt die Zahl der Elemente um 1
 
+> $$\begin{matrix} k \backslash j & 1 & 2 & \ldots & n  \\[0.5em] 1 & a_1 \\[0.5em] 2 & a_1 & a_2 \\[0.5em] ... \\[0.5em] n & a_1 & a_2 & \ldots & a_n \end{matrix}$$
 
-
+{% hint style="info" %}
 $$\begin{matrix} k \backslash j & 1 & 2 & \ldots & n  \\[0.5em] 1 & a_1 \\[0.5em] 2 & a_1 & a_2 \\[0.5em] ... \\[0.5em] n & a_1 & a_2 & \ldots & a_n \end{matrix}$$
+{% endhint %}
+
+<p align="center"><span class="math">\begin{matrix} k \backslash j &#x26; 1 &#x26; 2 &#x26; \ldots &#x26; n  \\[0.5em] 1 &#x26; a_1 \\[0.5em] 2 &#x26; a_1 &#x26; a_2 \\[0.5em] ... \\[0.5em] n &#x26; a_1 &#x26; a_2 &#x26; \ldots &#x26; a_n \end{matrix}</span></p>
 
 
 
 * Damit folgt
+
+> $$\begin{align*} \sum_{k=1}^{n} \bigg(\sum_{j=1}^{k}a_j\bigg) &=  \sum_{j=1}^{n} \bigg(\sum_{k=j}^{n}a_j\bigg) = \sum_{j=1}^{n}a_j \bigg(\sum_{k=j}^{n}1\bigg) \\[2em] &= \sum_{j=1}^{n}a_j (n-j+1) \quad \text{q.e.d.} \end{align*}$$
 
 $$\begin{align*} \sum_{k=1}^{n} \bigg(\sum_{j=1}^{k}a_j\bigg) &=  \sum_{j=1}^{n} \bigg(\sum_{k=j}^{n}a_j\bigg) = \sum_{j=1}^{n}a_j \bigg(\sum_{k=j}^{n}1\bigg) \\[2em] &= \sum_{j=1}^{n}a_j (n-j+1) \quad \text{q.e.d.} \end{align*}$$
 
