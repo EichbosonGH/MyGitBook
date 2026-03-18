@@ -40,6 +40,10 @@ afffe
 
 </details>
 
+## Draw
+
+<img src="../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+
 ### Tabelle
 
 Welcome to the company wiki! Here you'll find everything you need to know about the company.
