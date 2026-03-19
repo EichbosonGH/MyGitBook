@@ -45,11 +45,22 @@ $$
 
 * Damit folgt
 
-<p align="center"><span class="math">\begin{align*} \sum_{k=1}^{n} \bigg(\sum_{j=1}^{k}a_j\bigg) &#x26;=  \sum_{j=1}^{n} \bigg(\sum_{k=j}^{n}a_j\bigg) = \sum_{j=1}^{n}a_j \bigg(\sum_{k=j}^{n}1\bigg) \\[2em] &#x26;= \sum_{j=1}^{n}a_j (n-j+1) \quad \text{q.e.d.} \end{align*}</span></p>
+$$
+\begin{align*}
+\sum_{k=1}^{n}
+\bigg(\sum_{j=1}^{k}a_j\bigg)
+&= 
+\sum_{j=1}^{n}
+\bigg(\sum_{k=j}^{n}a_j\bigg)
+= \sum_{j=1}^{n}a_j
+\bigg(\sum_{k=j}^{n}1\bigg)
+\\[2em]
+&= \sum_{j=1}^{n}a_j
+(n-j+1) \quad \text{q.e.d.}
+\end{align*}
+$$
 
 ### Quadratzahlen
-
-#### Behauptung
 
 $$
 k^2 = \sum\limits_{j=1}^{k}(2j-1)
@@ -68,5 +79,40 @@ a_k &= a_0
 k^2 &= 0
 + \sum_{j=1}^{k}\Big[j^2-(j-1)^2\Big] 
 = \sum_{j=1}^{k}2j-1
+\end{align*}
+$$
+
+### Arithmetische Reihe
+
+$$
+\sum\limits_{k=1}^n k 
+= \frac{n(n+1)}{2}
+= \frac{n^2+n}{2}
+$$
+
+#### Beweis
+
+* Teleskop-Summe der Summanden
+
+$$
+\begin{align*}
+a_k &= a_0 
++ \sum_{i=1}^{k}(a_i-a_{i-1})
+~\text{mit}~ a_i=i
+\\[2em]
+k &= 0
++ \sum_{j=1}^{k}\Big[j-(j-1)\Big] 
+= \sum_{j=1}^{k}1
+\end{align*}
+$$
+
+asd
+
+$$
+\begin{align*}
+\sum_{k=1}^{n}k
+&= \sum_{k=1}^{n}
+\Big(\sum_{j=1}^{k}1\Big)
+= \sum_{j=1}^{n}(n-j+1)
 \end{align*}
 $$
