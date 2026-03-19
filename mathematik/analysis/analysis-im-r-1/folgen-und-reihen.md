@@ -109,10 +109,23 @@ $$
 asd
 
 $$
-\begin{align*}
+\begin{alignat*}
+a
+\end{alignat*}
+$$
+
+$$
+\begin{alignat*}
 \sum_{k=1}^{n}k
 &= \sum_{k=1}^{n}
 \Big(\sum_{j=1}^{k}1\Big)
 = \sum_{j=1}^{n}(n-j+1)
 \end{align*}
+$$
+
+$$
+\begin{alignat}{2}
+   10&x+&3&y=2\\
+   3&x+&13&y=4
+\end{alignat}
 $$

@@ -131,3 +131,9 @@ $$
 \Large (s_n)_{n\in\N}~~\text{mit}~~ s_n = \sum\limits_{k=0}^{n}a_k
 $$
 
+$$
+\begin{alignat*}{2}
+   10&x+&3&y=2\\
+   3&x+&13&y=4
+\end{alignat*}
+$$
